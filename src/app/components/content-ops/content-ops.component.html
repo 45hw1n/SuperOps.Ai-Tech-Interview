@@ -1,0 +1,38 @@
+<div class="input-group mb-3 w-100">
+    <input 
+    type="text" 
+    name="sno"
+    placeholder="Enter S.No"
+    class="form-control"
+    [(ngModel)] = "sno"/>
+    
+    <input 
+    type="text" 
+    name="content"
+    placeholder="Enter content"
+    class="form-control"
+    [(ngModel)] = "content"/>
+
+    <input 
+    type="text" 
+    name="subcontent"
+    placeholder="Enter Sub Content"
+    class="form-control"
+    [(ngModel)] = "Subcontent"/>
+    <br>
+    <input 
+    type="text" 
+    name="description"
+    placeholder="Enter Description"
+    class="form-control"
+    [(ngModel)] = "description"/>
+    
+
+    
+    
+    
+    <div class="input-group-append">
+        <button 
+        (click)="handleAdd()"class="btn btn-primary">Add Content</button>
+    </div>
+</div>
