@@ -12,7 +12,6 @@ export class ContentOpsComponent implements OnInit {
   content: string;
   Subcontent: string;
   description: string;
-  sno:number;
   constructor(private contentService: ContentService) { }
 
   ngOnInit(): void {
@@ -21,7 +20,6 @@ export class ContentOpsComponent implements OnInit {
     const newContent: Content = {
       id: uuidv4(),
       date: new Date(),
-      sno:this.sno,
       content: this.content,
       subcontent: this.Subcontent,  
       description: this.description,
@@ -30,6 +28,5 @@ export class ContentOpsComponent implements OnInit {
     this.content = "";
     this.description ="";
     this.Subcontent="";
-    this.sno =null;
   }
 }

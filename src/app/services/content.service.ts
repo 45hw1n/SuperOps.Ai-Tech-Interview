@@ -10,7 +10,6 @@ export class ContentService {
     this.contents = [
       {
         id: "111",
-        sno: 1,
         content: "PyTorch 1.8, with AMD ROCm support",
         subcontent:"(github.com/pytorch)",
         description: "160 points by lnyan 5 hours ago | hide | 52 comments",
@@ -18,7 +17,6 @@ export class ContentService {
       },
       {
         id: "222",
-        sno: 2 ,
         content: "Open source projects should run office hours ",
         subcontent:" (simonwillison.net)",
         description: 	"416 points by tosh 9 hours ago | hide | 138 comments",
@@ -26,7 +24,6 @@ export class ContentService {
       },
       {
         id: "333",
-        sno: 3,
         content: "Girl and Computer: Reflecting on the journey that got me to where I am today ",
         subcontent:"(rmurphey.medium.com)",
         description: "	31 points by mpweiher 2 hours ago | hide | 6 comments",
@@ -34,7 +31,6 @@ export class ContentService {
       },
       {
         id: "111",
-        sno: 4,
         content: "PyTorch 1.8, with AMD ROCm support",
         subcontent:"(github.com/pytorch)",
         description: "160 points by lnyan 5 hours ago | hide | 52 comments",
@@ -42,7 +38,6 @@ export class ContentService {
       },
       {
         id: "222",
-        sno: 5 ,
         content: "Open source projects should run office hours ",
         subcontent:" (simonwillison.net)",
         description: 	"416 points by tosh 9 hours ago | hide | 138 comments",
@@ -50,7 +45,6 @@ export class ContentService {
       },
       {
         id: "333",
-        sno: 6,
         content: "Girl and Computer: Reflecting on the journey that got me to where I am today ",
         subcontent:"(rmurphey.medium.com)",
         description: "	31 points by mpweiher 2 hours ago | hide | 6 comments",
